@@ -1,35 +1,11 @@
-import type {NextConfig} from 'next';
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**',
-      },
-    ],
-  },
-};
+const nextConfig = {
+  output: 'export', // 💡 convierte el sitio a HTML estático
+  images: { unoptimized: true },
+  basePath: isProd ? '/anabelchura-portfolio' : '', // usa el nombre exacto de tu repo
+  assetPrefix: isProd ? '/anabelchura-portfolio/' : '',
+}
 
-export default nextConfig;
+export default nextConfig
