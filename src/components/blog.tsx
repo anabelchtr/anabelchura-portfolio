@@ -3,18 +3,18 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 
 const blogPosts = [
     {
-        title: "Qué significa realmente ser Scrum Master",
-        description: "Más allá de ceremonias: coaching, medición y colaboración para entregar valor sostenido.",
+        title: "What being a Scrum Master truly means?",
+        description: "Soon..",
         link: "#"
     },
     {
-        title: "De Dev a SM: ventajas de la base técnica",
-        description: "Cómo el background en .NET y QA mejora la comunicación y las decisiones del equipo.",
+        title: "From Developer to Scrum Master: the power of a technical mindset",
+        description: "Soon..",
         link: "#"
     },
     {
-        title: "Métricas ágiles que sí cambian comportamientos",
-        description: "Velocity, Burndown y Cycle Time al servicio de conversaciones y mejoras, no como fines en sí mismos.",
+        title: "Agile Metrics",
+        description: "..",
         link: "#"
     }
 ];
@@ -27,7 +27,7 @@ export function Blog() {
                     Blog
                 </h2>
             </div>
-            <p className="text-muted-foreground mb-8">Publicaciones breves sobre métricas, liderazgo y prácticas ágiles.</p>
+            <p className="text-muted-foreground mb-8">Publications..</p>
             
             <div className="grid grid-cols-1 gap-6">
                 {blogPosts.map((post, index) => (
@@ -40,14 +40,14 @@ export function Blog() {
                         </CardContent>
                         <CardFooter>
                             <Button variant="outline" asChild>
-                                <a href={post.link}>Leer</a>
+                                <a href={post.link}>Read</a>
                             </Button>
                         </CardFooter>
                     </Card>
                 ))}
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-                Tip: podrás reemplazar estos artículos por archivos HTML o Markdown generados desde tu repositorio.
+                Tip: soon to be replaced
             </p>
         </section>
     );

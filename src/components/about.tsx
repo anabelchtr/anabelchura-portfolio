@@ -6,21 +6,21 @@ export function About() {
     <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
       <div className="sticky top-0 z-10 -mx-6 mb-4 w-screen bg-background/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground lg:sr-only">
-          Sobre mí
+          About Me
         </h2>
       </div>
 
       <div className="space-y-8">
         <p className="text-muted-foreground">
-          Profesional en tecnología con más de 9 años de experiencia combinando desarrollo de software, aseguramiento de calidad y liderazgo ágil. Actualmente desempeño el rol de <strong>Scrum Master con base técnica</strong>, acompañando equipos distribuidos en la entrega de valor y en su crecimiento profesional.
+          Technology professional with over 9 years of experience combining software development, quality assurance, and agile leadership. Currently performing as a <strong>Scrum Master with a strong technical background</strong>, supporting distributed teams in delivering value and achieving continuous improvement.
         </p>
         <p className="text-muted-foreground">
-          Mi formación como desarrolladora (.NET, Angular, SQL Server) me permite comprender los desafíos técnicos del equipo y traducirlos en prácticas de colaboración, métricas y foco en resultados.
+          background as a <strong>.NET, Angular, and SQL Server developer</strong> allows me to understand technical challenges and translate them into effective collaboration practices, agile metrics, and result-oriented outcomes.
         </p>
 
         <div className="flex flex-wrap gap-2">
             <Badge variant="secondary">Scrum • Kanban • SAFe</Badge>
-            <Badge variant="secondary">Métricas: Velocity, Burndown, Cycle Time</Badge>
+            <Badge variant="secondary">Metrics: Velocity, Burndown, Cycle Time</Badge>
             <Badge variant="secondary">Management 3.0</Badge>
             <Badge variant="secondary">Jira • Azure DevOps • Miro • Power BI</Badge>
             <Badge variant="secondary">.NET • Angular • SQL Server</Badge>
@@ -29,33 +29,33 @@ export function About() {
         
         <Card>
           <CardHeader>
-            <CardTitle className="font-headline">Habilidades y Roles</CardTitle>
+            <CardTitle className="font-headline">Skills & Roles</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="role-card">
               <h4 className="font-bold text-foreground">🟩 Scrum Master / Agile Leadership</h4>
               <ul className="mt-2 list-disc list-inside space-y-1 text-sm text-muted-foreground">
-                <li>Facilitación de ceremonias Scrum y retros efectivas</li>
-                <li>Implementación de métricas (Velocity, Burndown, Cycle Time)</li>
-                <li>Management 3.0: Moving Motivators, Delegation Poker, Celebration Grid</li>
-                <li>Coaching de equipos, mejora continua y seguridad psicológica</li>
-                <li>Comunicación ejecutiva con stakeholders</li>
+                <li>Facilitation of Scrum ceremonies and effective retrospectives</li>
+                <li>Implementation of agile metrics (Velocity, Burndown, Cycle Time)</li>
+                <li>Management 3.0 practices: Moving Motivators, Delegation Poker, Celebration Grid</li>
+                <li>Coaching teams towards continuous improvement and psychological safety</li>
+                <li>Executive communication with stakeholders</li>
               </ul>
             </div>
             <div className="role-card">
               <h4 className="font-bold text-foreground">🟨 QA Engineer / Quality Advocate</h4>
               <ul className="mt-2 list-disc list-inside space-y-1 text-sm text-muted-foreground">
-                <li>Diseño y ejecución de pruebas (Functional, Regression, Smoke, Sanity)</li>
-                <li>Pruebas exploratorias y soporte UAT</li>
-                <li>API Testing con Postman; reporte de defectos (Jira/Azure DevOps)</li>
-                <li>Automatización inicial (Selenium / Postman scripts)</li>
+                <li>Design and execution of tests (Functional, Regression, Smoke, Sanity)</li>
+                <li>Exploratory testing and UAT support</li>
+                <li>API testing using Postman; defect reporting in Jira/Azure DevOps</li>
+                <li>Initial automation with Selenium / Postman scripts</li>
               </ul>
             </div>
             <div className="role-card">
               <h4 className="font-bold text-foreground">🟦 Developer / Technical Background</h4>
               <ul className="mt-2 list-disc list-inside space-y-1 text-sm text-muted-foreground">
                 <li>C#, ASP.NET, .NET Core, MVC, Angular, SQL Server</li>
-                <li>Arquitectura Onion, principios SOLID, RESTful APIs</li>
+                <li>Onion Architecture, SOLID principles, RESTful APIs</li>
                 <li>HTML5, CSS3, JavaScript, jQuery</li>
                 <li>GitLab/GitFlow, TeamCity, Azure DevOps</li>
               </ul>
@@ -69,8 +69,9 @@ export function About() {
                     <CardTitle className="font-headline text-lg">Certificaciones</CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground space-y-2 text-sm">
-                    <p>Scrum Master Professional (SMPC) · Scrum Foundation (CertiProf)</p>
-                    <p>Diploma en Gestión de Proyectos de Software (U.A.G.R.M)</p>
+                    <p>Scrum Master Professional Certificate (SMPC) · Scrum Foundation Professional Certificate(CertiProf)</p>
+                    <p>Informatics Engineering · Licentiate degree (U.A.G.R.M)</p>
+                    <p>Diploma in Software Project Management (U.A.G.R.M)</p>
                     <p>Diploma en Business Intelligence Gerencial (UPB)</p>
                 </CardContent>
             </Card>

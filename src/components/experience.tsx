@@ -4,41 +4,41 @@ const experienceData = [
     {
         company: "Newshore by FLYR",
         role: "Scrum Master",
-        tags: "Aerolíneas (cliente Avianca)",
+        tags: "Airlines (Avianca client)",
         period: "2022 – 2025",
-        description: "Liderazgo de 2 equipos ágiles distribuidos, facilitación de ceremonias, gestión de stakeholders y adopción de métricas ágiles. Prácticas de Management 3.0 para promover ownership y seguridad psicológica.",
+        description: "Led two distributed agile teams, facilitated Scrum ceremonies, managed stakeholder expectations, and implemented agile metrics. Applied Management 3.0 practices to foster ownership, collaboration, and psychological safety.",
         stack: ".NET 6, Angular, Azure DevOps, Jira, Miro, Power BI, Looker"
     },
     {
         company: "Inforfactory SRL",
-        role: "QA Engineer / .NET Developer / Scrum Master interno",
-        tags: "Migración y estabilidad de plataformas",
+        role: "QA Engineer / .NET Developer / Internal Scrum Master",
+        tags: "Platform migration and stability",
         period: "2017 – 2022",
-        description: "Migración de aplicaciones a .NET Core + Angular, estabilización de releases, diseño y ejecución de pruebas (funcional, regresión) y coordinación de integraciones. Reorganización de equipo con foco en mejora continua.",
+        description: "Migrated applications to .NET Core + Angular, stabilized releases, designed and executed functional and regression testing, and coordinated integrations. Reorganized the team with a focus on continuous improvement.",
         stack: ".NET Core, Angular, RabbitMQ, TeamCity, Azure, Git, Postman"
     },
     {
         company: "Tismart",
         role: "Developer & Team Lead",
-        tags: "Portales web y backoffice",
+        tags: "Web portals and back-office systems",
         period: "2015 – 2016",
-        description: "Renovación de portales (Infocenter, Banco Mercantil, DATEC), definición de arquitectura MVC y servicios REST, liderazgo de integraciones web–móvil y asignación de tareas.",
+        description: "Redesigned corporate portals (Infocenter, Banco Mercantil, DATEC), defined MVC architecture and REST services, led web–mobile integrations, and managed task assignments.",
         stack: "ASP.NET MVC, Web Services, SQL Server"
     },
     {
         company: "Cya Consultores",
         role: "Developer",
-        tags: "Sistemas de asistencia",
+        tags: "Attendance management systems",
         period: "2014 – 2015",
-        description: "Desarrollo de sistemas de asistencia y control de personal para pymes.",
+        description: "Developed attendance and personnel control systems for SMEs.",
         stack: "VB.NET, SQL Server"
     },
     {
-        company: "Tribunal Electoral Departamental",
+        company: "Departmental Electoral Court",
         role: "Developer",
-        tags: "Sistemas administrativos",
+        tags: "Administrative systems",
         period: "2016",
-        description: "Desarrollo de sistemas internos de control y gestión administrativa.",
+        description: "Developed internal systems for administrative management and process tracking.",
         stack: "VB.NET"
     }
 ];
@@ -48,10 +48,10 @@ export function Experience() {
     <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
       <div className="sticky top-0 z-10 -mx-6 mb-4 w-screen bg-background/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground lg:sr-only">
-          Experiencia
+          Experience
         </h2>
       </div>
-      <p className="text-muted-foreground mb-8">Evolución de roles (Dev → QA → Scrum Master) y proyectos por empresa.</p>
+      <p className="text-muted-foreground mb-8">Career progression (Dev → QA → Scrum Master) and projects by company.</p>
       
       <ol className="relative border-l border-border space-y-8">
         {experienceData.map((item, index) => (
