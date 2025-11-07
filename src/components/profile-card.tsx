@@ -10,7 +10,7 @@ export function ProfileCard() {
   return (
     <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
       <Image
-        src="/profile.jpeg"
+        src={`${process.env.NODE_ENV === 'production' ? '/anabelchura-portfolio/profile.jpeg' : '/profile.jpeg'}`}
         alt={profileImage?.description || "Foto de Anabel Chura Triviño"}
         width={160}
         height={160}
