@@ -6,6 +6,7 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath: isProd ? '/anabelchura-portfolio' : '', // usa el nombre exacto de tu repo
   assetPrefix: isProd ? '/anabelchura-portfolio/' : '',
+  trailingSlash: true,
 }
 
 export default nextConfig
